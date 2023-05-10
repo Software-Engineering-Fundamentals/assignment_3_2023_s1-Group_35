@@ -7,6 +7,8 @@ public class Main {
               CourseFeedback courseFeedback = new CourseFeedback();
 
               // Trainee lodges a registration fee 
+              trainee.requestRefund();
+
               // Finance manager checks if the trainee is eligible
               // Lodge a feedback/complaint
     }
