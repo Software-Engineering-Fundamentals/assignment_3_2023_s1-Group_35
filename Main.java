@@ -10,6 +10,14 @@ public class Main {
               trainee.requestRefund();
 
               // Finance manager checks if the trainee is eligible
+              boolean eligibleForRefund = true; // Dummy value, real implementation should check the eligibility
+              if (eligibleForRefund) {
+                  financeManager.payRefund();
+                  System.out.println("Refund has been paid to the trainee.");
+              } else {
+                  System.out.println("Refund request denied.");
+              }
+
               // Lodge a feedback/complaint
     }
 }
