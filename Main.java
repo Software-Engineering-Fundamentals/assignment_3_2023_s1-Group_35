@@ -22,6 +22,6 @@ public class Main {
               trainee.provideCourseFeedback();
               manager.accessFeedback();
               courseFeedback.accessFeedbackNotes();
-
+              System.out.println("Feedback/Complaint has been successfully addressed by the Manager.");
     }
 }
