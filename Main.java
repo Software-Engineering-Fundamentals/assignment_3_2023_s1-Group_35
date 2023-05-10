@@ -19,5 +19,9 @@ public class Main {
               }
 
               // Lodge a feedback/complaint
+              trainee.provideCourseFeedback();
+              manager.accessFeedback();
+              courseFeedback.accessFeedbackNotes();
+
     }
 }
