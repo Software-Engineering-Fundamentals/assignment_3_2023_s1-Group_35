@@ -1,6 +1,30 @@
 import java.util.Date;
 
 // To add classes. Add abstract class and other classes outlined in diagrams here :)
+abstract class GenericUser {
+
+    int ID;
+
+    String name;
+
+    String password;
+
+    Date DOB;
+
+    String emergencyContactInfo;
+
+    void requestHelp() {
+
+    // Request help from IT Administrator
+
+    }
+
+}
+
+
+
+
+
 
 public class Main {
     public static void main(String[] args) {
