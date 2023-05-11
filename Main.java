@@ -21,7 +21,21 @@ abstract class GenericUser {
 
 }
 
+class Manager extends GenericUser {
+    
+    void accessFeedback() {
 
+        // Access feedback from trainees
+
+    }
+
+    void sendMemoToStaff() {
+
+        // Send a memo to the staff
+
+    }
+
+}
 
 
 
