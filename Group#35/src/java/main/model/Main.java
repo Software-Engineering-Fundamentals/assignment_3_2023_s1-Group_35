@@ -1,3 +1,4 @@
+package model;
 import java.util.Date;
 
 // To add classes. Add abstract class and other classes outlined in diagrams here :)
