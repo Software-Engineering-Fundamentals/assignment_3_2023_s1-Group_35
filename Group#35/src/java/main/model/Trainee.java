@@ -1,18 +1,11 @@
 package model;
 
-class Trainee extends GenericUser {
+public class Trainee extends GenericUser {
+    public void requestRefund() {
+        // Request refund from the finance manager
+    }
 
-    void requestRefund() {
-    
-    // Request refund from the finance manager
-    
+    public void provideCourseFeedback() {
+        // Provide course feedback to the manager
     }
-    
-    
-    void provideCourseFeedback() {
-    
-    // Provide course feedback to the manager
-    
-    }
-    
-    }
+}

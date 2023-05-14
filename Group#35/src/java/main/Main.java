@@ -1,45 +1,10 @@
-package model;
-import java.util.Date;
-
-// To add classes. Add abstract class and other classes outlined in diagrams here :)
-abstract class GenericUser {
-
-    int ID;
-
-    String name;
-
-    String password;
-
-    Date DOB;
-
-    String emergencyContactInfo;
-
-    void requestHelp() {
-
-    // Request help from IT Administrator
-
-    }
-
-}
-
-class Manager extends GenericUser {
-    
-    void accessFeedback() {
-
-        // Access feedback from trainees
-
-    }
-
-    void sendMemoToStaff() {
-
-        // Send a memo to the staff
-
-    }
-
-}
+package app;
 
 
-
+import model.Trainee;
+import model.FinanceManager;
+import model.Manager;
+import model.CourseFeedback;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,7 +16,6 @@ public class Main {
 
         // Trainee lodges a registration fee refund request which is addressed by the finance manager
         trainee.requestRefund();
-		
         // Finance manager checks if the trainee is eligible for a refund
         boolean eligibleForRefund = true; // Dummy value, real implementation should check the eligibility
         if (eligibleForRefund) {

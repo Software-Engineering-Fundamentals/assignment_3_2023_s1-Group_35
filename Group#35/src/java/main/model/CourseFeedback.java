@@ -1,16 +1,11 @@
 package model;
 
-class CourseFeedback {
-
+public class CourseFeedback {
     int feedbackID;
     String feedbackName;
     String feedbackNotes;
 
-    
-    void accessFeedbackNotes() {
-    
-    // Access the feedback notes
-    
+    public void accessFeedbackNotes() {
+        // Access the feedback notes
     }
-    
 }
