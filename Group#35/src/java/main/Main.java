@@ -1,10 +1,12 @@
-package app;
-
+package model;
 
 import model.Trainee;
 import model.FinanceManager;
 import model.Manager;
 import model.CourseFeedback;
+
+// Rest of your code...
+
 
 public class Main {
     public static void main(String[] args) {
